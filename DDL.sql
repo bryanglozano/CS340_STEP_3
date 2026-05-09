@@ -97,10 +97,11 @@ CREATE TABLE `EmployeeClients` (
     PRIMARY KEY (`employeeClientID`),
     UNIQUE KEY `unique_employee_client` (`employeeID`, `clientID`),
     FOREIGN KEY (`employeeID`) REFERENCES `Employees`(`employeeID`)
-        ON DELETE RESTRICT ON UPDATE CASCADE,
+        ON DELETE CASCADE ON UPDATE CASCADE,
     FOREIGN KEY (`clientID`) REFERENCES `Clients`(`clientID`)
-        ON DELETE RESTRICT ON UPDATE CASCADE
+        ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
 
 -- =============================================
 -- SAMPLE DATA
