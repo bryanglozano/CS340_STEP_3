@@ -1,6 +1,6 @@
 -- =============================================
 -- Group 45 - Elite Luxury Rental Management System
--- Project Step 2 DRAFT
+-- Project Step 3 DRAFT
 -- Members: Alejandro Leon, Bryan Lozano Gutierrez, Jeremy Lammon
 -- =============================================
 
